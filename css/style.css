@@ -1,0 +1,50 @@
+.bg-1 {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.maincontainer{
+    margin-top: 0;
+    padding: 0;
+}
+
+.bg{
+    background-color:aqua; 
+    color:rgb(19, 18, 14);
+}
+
+.bg-1{
+    background-color: aquamarine;
+    color:gray;
+}
+
+.bg-2{
+    background-color: green;
+    color: white;
+}
+.mr{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+.img-responsive {
+    display: inline;
+}
