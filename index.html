@@ -6,16 +6,89 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title> Bootstrap Theme Company </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+
+    <body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#myPage">Logo</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#pricing">PRICING</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="jumbotron text-center" >
+        <h1> Company </h1>
+        <p> And my company name is "Bhagat Technologies" 
+        </p>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="email" class="form-control" size="50" placeholder="Enter Your mailId" required>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-danger"> Subscribe </button>
+                </div>
+            </div>
+        </form>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+            <h2> About the company</h2>
+            <h4> Here are the features of the company</h4>
+            <p> I have add a space between the two single quotes.Since i added a bootstrap
+                tooltip on my input fields and required, the invalid input comes to focus and displays the tooltip value.</p>
+                <button class="btn btn-default btn-lg"> Get In Touch</button>
+                </div>
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-signal logo"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-1">
+            <div class="row">
+                <div class="col-sm-4">
+                    <span class="glyphicon glyphicon-globe logo"></span>
+                </div>
+                <div class="col-sm-8">
+                    <h2>Our Values</h2>
+                    <h4> <strong> Mission:</strong>  Our mission is to build a strong and reputated company.</h4>
+                    <p> <strong> Vission: </strong> Our vission is to focus on employement and empower of the company</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2> About the company page </h2>
+                </div>
+            </div>
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
